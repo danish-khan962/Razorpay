@@ -8,6 +8,19 @@
     <link rel="shortcut icon" href="./Image-assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="main.css">
+    <style>
+        .companyImage{
+            animation: 8s infinite linear animationMove;
+        }
+        @keyframes animationMove{
+            0%{
+                top: 0%;
+            }
+            100%{
+                top:-50%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -356,6 +369,68 @@
                     <a href="#"><button class="hover:text-lightBlue500 hover:font-semibold">Know more</button></a>
                     <i class="fa-solid fa-chevron-right ml-[5px]"></i>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[url(./Image-assets/core-features-sectionBG.svg)] bg-cover w-full flex flex-col justify-center items-center gap-[2rem] pt-[10rem] pb-[9rem] text-white font-Mulish">
+        <div class="flex flex-col justify-center items-center text-center w-[480px] gap-[2rem]">
+            <h2 class="font-Mulish font-extrabold text-[22px]">Features</h2>
+            <p class="text-[17px]">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
+        </div>
+        <div class="grid grid-cols-4 grid-rows-2 gap-[1.5rem]">
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/instant-activation-icon.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Instant Acitivation</p>
+                <p class="text-[15px] mt-[0.6rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/easy-integration.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Easy Integration</p>
+                <p class="text-[15px] mt-[0.6rem]">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/api-driven-icon.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">API Driven</p>
+                <p class="text-[15px] mt-[0.6rem]">Build your business for scale with out complete API-driven automation that requires zero manual intervention.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/payment-modes.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">100+ payment modes</p>
+                <p class="text-[15px] mt-[0.6rem]">Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/simple-pricing.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Simple Pricing</p>
+                <p class="text-[15px] mt-[0.6rem]">Our innovate payment solutions with competitive pricing make payments simpler.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/industry-support-icon.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Best in Industry Support</p>
+                <p class="text-[15px] mt-[0.6rem]">Always available email, phone and chat based support to help you in every step.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/dashboard-reporting-icon.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Dashboard Reporting</p>
+                <p class="text-[15px] mt-[0.6rem]">Real-time data and insights on your Razorpay Dashboard to make informed business decisions.</p>
+            </div>
+            <div class="max-w-[15rem] p-[0.3rem] hover:scale-105 cursor-pointer transition-all duration-200">
+                <img src="./Image-assets/secure-icon.svg" class="h-[32px]">
+                <p class="font-extrabold font-Mulish text-[16px] mt-[0.3rem]">Secure</p>
+                <p class="text-[15px] mt-[0.6rem]">PCI DSS Level 1 complaint solution whch removes your burden of regulatory compilance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex justify-center w-screen items-center bg-[#f5f8fe] pt-[6rem] pb-[4rem]">
+        <div class="max-w-[1080px] flex justify-center items-center gap-[3.5rem]">
+            <div class="max-w-[620px]">
+                <h2 class="font-extrabold font-Mulish text-[25px]">Join the 50,00,000+ businesses using Razorpay</h2>
+                <p class="font-Mulish text-[17px] font-medium mt-[3.5rem]">We make it easier for you to focus on building great products while we work on simplifying payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                <p class="font-Mulish text-[17px] font-medium mt-[1.3rem]">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+            <div class="max-h-[500px] overflow-hidden">
+                <img src="./Image-assets/comanies.png" class=" relative companyImage">
             </div>
         </div>
     </section>
